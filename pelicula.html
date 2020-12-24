@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelicula</title>
+    <script>
+        //Ejercicio punto 3, 4 y 5
+
+        score = 0;
+        point = 1;
+        title = 'Mi pobre angelito';
+        date = 1991;
+
+        movie = prompt('¿En qué película, un niño se queda solo en su casa accidentalmente en Navidad?');
+
+        if (movie === title){
+            alert('¡Respuesta correcta! Sumas ' +point +' punto');
+            score += point;
+
+            year = prompt('¿En que año se estrenó la película?');
+            if (year == date){
+                alert('¡Respuesta correcta! Sumas '+point + ' punto');
+                score+= point;
+            }else('Respuesta incorrecta');
+        }else{
+            alert('Respuesta incorrecta');
+        };
+
+        alert('Sumaste ' + score + ' puntos');
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
